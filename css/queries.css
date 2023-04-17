@@ -37,9 +37,6 @@
     margin: 10rem;
   }
 
-  .blog {
-    padding: 0 10rem;
-  }
 
 
 }
@@ -52,6 +49,16 @@
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
+  }
+
+  .hero {
+    max-width: 100rem;
+  }
+
+
+  .courses {
+    display: flex;
+    flex-direction: column;
   }
 
   .grid {
@@ -101,6 +108,18 @@
     gap: 6.4rem;
   }
 
+
+  .courses-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pip {
+    display: none;
+  }
+
   .heading-primary {
     padding: 2rem;
     font-size: 3.8rem;
@@ -131,6 +150,10 @@
     font-size: 7.4rem;
   }
 
+  .testimonial-header {
+    text-align: center;
+  }
+
   .about-p {
     padding: 3rem;
   }
@@ -139,9 +162,6 @@
     grid-template-columns: 1fr;
   }
 
-  .gallery {
-    grid-template-columns: repeat(6, 1fr);
-  }
 
   .cta {
     /* 3/5 = 60% + 2/5 = 40% */
@@ -221,6 +241,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .course-heading {
+    text-align: center;
+  }
+
   .include {
     grid-column: 1 / -1;
     justify-self: center;
@@ -247,6 +271,13 @@
     text-align: center;
   }
 
+  .testimonial-header {
+    font-size: 2.8rem;
+    text-align: center;
+
+  }
+
+
   .pricing-plan--complete-2::after {
     top: 9%;
     right: -25%;
@@ -266,6 +297,10 @@
     grid-column: span 3;
   }
 
+  .accordian {
+    width: 500PX;
+  }
+
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
@@ -281,6 +316,29 @@
 
   .hero {
     max-width: 40rem;
+  }
+
+  .virtual-course {
+    max-width: 40rem;
+    height: 200rem;
+
+  }
+
+  .f2f-course {
+    max-width: 40rem;
+    height: 210rem;
+  }
+
+  .consult-course {
+    max-width: 40rem;
+    height: 210rem;
+  }
+
+  .vc-list {
+    word-wrap: break-word;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1.3rem;
   }
 
   .mobile-flex {
@@ -300,13 +358,27 @@
 
   .packages {
     max-width: 100%;
+    gap: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+
+  .accordian {
+    width: 300px;
+  }
+
+  .vc-list {
+    text-align: center;
+  }
+
   .package {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
@@ -329,7 +401,7 @@
   }
 
   .list-1 {
-    margin-right: 2rem;
+    margin-right: 1.6rem;
   }
 
   .tnc-p {
@@ -402,7 +474,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
 

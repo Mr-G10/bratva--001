@@ -1,3 +1,14 @@
+/* 
+background color #18181b
+#d4d4d8
+#9ca3af
+#6b7280
+
+
+*/
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -10,11 +21,11 @@ html {
 }
 
 body {
-  background-color: #F1F5F9;
-  font-family: 'Roboto', sans-serif;
+  background-color: #18181b;
+  font-family: 'Courgette', cursive;
   line-height: 1;
   font-weight: 400;
-  color: #09090B;
+  color: #f3f4f6;
   overflow-x: hidden;
 }
 
@@ -25,9 +36,6 @@ main {
   justify-content: center;
 }
 
-.bold {
-  font-weight: 800;
-}
 
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
@@ -72,8 +80,8 @@ main {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-weight: 700;
-  color: #333;
+  font-weight: 600;
+  color: #e5e7eb;
   /* color: #45260a; */
   /* color: #343a40; */
   letter-spacing: -0.5px;
@@ -183,11 +191,7 @@ main {
   line-height: 1.2;
 }
 
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #22c55e;
-}
+
 
 *:focus {
   outline: none;
