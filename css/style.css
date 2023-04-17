@@ -52,7 +52,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #22c55e;
+  color: #a1a1aa;
 }
 
 .main-nav-link.nav-cta:link,
@@ -65,7 +65,7 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #22c55e;
+  background-color: #a1a1aa;
 }
 
 /* MOBILE NAVIGATION */
@@ -110,18 +110,22 @@
 /**************************/
 
 .section-hero {
-  padding: 4.8rem 0 9.6rem 0;
+  max-width: 100%;
+  padding: 9rem 0 9.6rem 0;
+  background-color: #27272a;
+  margin-bottom: 5rem;
+
 }
 
 .hero {
   border-radius: 25px;
-  max-width: 135rem;
-  margin: 0 auto;
-  padding: 4rem 4rem 2rem 4rem;
+  max-width: 60%;
+  margin: 2rem auto;
+  padding: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  box-shadow: 0 0 1rem 0 #22c55e;
+  box-shadow: 0 0.5rem 1rem #52525b;
   align-items: center;
 }
 
@@ -141,11 +145,11 @@
 
 
 .green {
-  color: #22c55e;
+  text-shadow: 1px 1px 2px #052e16, 0 0 1em #052e16, 0 0 0.1em #052e16;
 }
 
 .hero-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -225,49 +229,45 @@
 }
 
 .virtual-course {
-  border: 1px solid #eab308;
-  max-width: 60rem;
-  height: 190rem;
+  width: 60rem;
+  height: 200rem;
   padding: 2rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 0 0.5rem 1rem #6b7280;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 .f2f-course {
-  border: 1px solid #06b6d4;
-  max-width: 54rem;
-  height: 190rem;
+  width: 60rem;
+  height: 200rem;
   padding: 3rem 9rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 0 0.5rem 1rem #6b7280;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 .consult-course {
-  border: 1px solid #8b5cf6;
-  max-width: 55rem;
-  height: 190rem;
+  width: 60rem;
+  height: 200rem;
   padding: 3rem 9rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 0 0.5rem 1rem #6b7280;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 
 .signals-link-box {
-  border: solid 1px #16A34A;
   margin-top: 11.6rem;
   border-radius: 10px;
-  width: 35rem;
+  width: 40rem;
   height: 25rem;
-  box-shadow: 0 0.5rem 1rem #6b7280;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 .pip {
@@ -317,14 +317,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.3rem;
+  gap: 1.6rem;
   align-items: center;
 }
 
 .vc-list {
   text-transform: capitalize;
   padding: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -333,18 +333,30 @@
   line-height: 1.2;
 }
 
+.vc-list2 {
+  text-transform: capitalize;
+  padding: 0.5rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.2;
+}
+
 .list-icon {
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #eab308;
+  color: #d4d4d8;
 }
 
 .list-icon-f2f {
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #06b6d4;
+  color: #d4d4d8;
 }
 
 
@@ -352,47 +364,60 @@
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #8b5cf6;
+  color: #d4d4d8;
 }
 
 .list-icon-2 {
-  margin-bottom: 4.1rem;
+  margin-bottom: 4.3rem;
   text-align: center;
   width: 2rem;
+
   height: 2rem;
-  color: #eab308;
+  color: #d4d4d8;
 }
+
 
 .list-icon-3 {
   margin-bottom: 2.2rem;
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #eab308;
+  color: #d4d4d8;
 }
+
 
 .list-icon-f2f2 {
   margin-bottom: 2.05rem;
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #06b6d4;
+  color: #d4d4d8;
 }
 
 .list-icon-f2ff {
-  margin-top: 2rem;
+  margin-bottom: 2.4rem;
   text-align: center;
+  padding-right: 0.3rem;
   width: 2rem;
   height: 2rem;
-  color: #06b6d4;
+  color: #d4d4d8;
+}
+
+.list-icon-f2fff {
+  margin-bottom: 5rem;
+  text-align: center;
+  padding-right: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  color: #d4d4d8;
 }
 
 .list-icon-ccc {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #8b5cf6;
+  color: #d4d4d8;
 }
 
 .list-icon-cc {
@@ -400,7 +425,7 @@
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #8b5cf6;
+  color: #d4d4d8;
 }
 
 
@@ -411,19 +436,19 @@
 .pricing-section-vc {
   height: 30rem;
   max-width: 31rem;
-  margin-top: 3.6rem;
+  margin-top: 4.7rem;
   padding: 4rem;
   border-radius: 15px;
-  box-shadow: 0 0.5rem 1rem #eab308;
+  box-shadow: 0 0.5rem 1rem #09090b
 }
 
 .pricing-section-f2ff {
   height: 30rem;
   max-width: 31rem;
-  margin-top: 2.9rem;
+  margin-top: 6.9rem;
   padding: 4rem;
   border-radius: 15px;
-  box-shadow: 0 0.5rem 1rem #06b6d4;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 .pricing-section-cc {
@@ -432,7 +457,7 @@
   margin-top: 4.5rem;
   padding: 4rem;
   border-radius: 15px;
-  box-shadow: 0 0.5rem 1rem #8b5cf6;
+  box-shadow: 0 0.5rem 1rem #09090b;
 }
 
 .price-header {
@@ -446,7 +471,6 @@
 }
 
 .course-name {
-  color: #fde047;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -455,7 +479,6 @@
 }
 
 .course-name-f2f {
-  color: #06b6d4;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -466,7 +489,6 @@
 
 
 .course-name-cc {
-  color: #8b5cf6;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -491,9 +513,12 @@
   border: none;
   padding: 2rem 4rem;
   border-radius: 10px;
-  background-color: #eab308;
+  background-color: #71717a;
   transition: all 0.4s;
-
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #09090B;
 }
 
 .buy-button span {
@@ -506,53 +531,7 @@
 
 .buy-button:hover,
 .buy-button:active {
-  background-color: #facc15;
-  cursor: pointer;
-}
-
-.buy-button-f2f {
-  border: none;
-  text-transform: capitalize;
-  padding: 2rem 4rem;
-  border-radius: 10px;
-  background-color: #0891b2;
-  transition: all 0.4s;
-  font-size: 1.6rem;
-  font-weight: 800;
-  text-decoration: none;
-  color: #18181b;
-}
-
-.buy-button-f2f:hover,
-.buy-button-f2f:active {
-  background-color: #22d3ee;
-  cursor: pointer;
-}
-
-
-.buy-button-f2f span {
-  text-transform: capitalize;
-  font-size: 1.6rem;
-  font-weight: 800;
-}
-
-
-.buy-button-c {
-  border: none;
-  padding: 2rem 4rem;
-  border-radius: 10px;
-  background-color: #8b5cf6;
-  text-transform: capitalize;
-  font-size: 1.6rem;
-  font-weight: 800;
-  transition: all 0.4s;
-  text-decoration: none;
-  color: #18181b;
-}
-
-.buy-button-c:hover,
-.buy-button-c:active {
-  background-color: #c084fc;
+  background-color: #525252;
   cursor: pointer;
 }
 
@@ -560,20 +539,20 @@
 
 .signal-btn {
   border: #18181b;
-  background-color: #22c55e;
+  background-color: #09090b;
   padding: 2rem 4rem;
   margin: 4rem;
   border-radius: 15px;
   text-decoration: none;
-  color: #18181b;
+  color: #f3f4f6;
 }
 
 
 .signal-btn:hover,
 .signal-btn:active {
-  background-color: #d1fae5;
+  background-color: #27272a;
   cursor: pointer;
-  transition: all 2s;
+  transition: all 0.4s;
 }
 
 .signal-btn span {
@@ -589,14 +568,27 @@
 
 
 /* BANKING DETAILS SECTION */
+
+.aside-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #27272a;
+  width: 100%;
+}
+
 .banking-details-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 130rem;
   gap: 1rem;
   border: solid 1px #9ca3af;
   padding: 2rem;
+  margin-top: 8rem;
+  background-color: #09090B;
   border-radius: 15px;
   box-shadow: 0 0.5rem 1rem #6b7280;
 }
@@ -618,24 +610,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.3rem;
+  gap: 1.4rem;
+  width: 40rem;
   box-shadow: 0 0.5rem 1rem black;
-  padding: 3rem;
-  margin-top: 5rem;
+  padding: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: #09090b;
+}
+
+.broker-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
 .broker {
-  font-size: 2rem;
+  white-space: nowrap;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.broker-p {
+  font-size: 1.5rem;
+}
+
+.r-arrow {
+  font-size: 6rem;
+  color: black;
 }
 
 .broker-img {
   max-width: 10rem;
   cursor: pointer;
-  box-shadow: 0 0.2rem 0.5rem #6b7280;
+  box-shadow: 0 0.2rem 0.5rem #09090b;
 
 }
 
-/* SIGNAL PACKAGES */
+/* SIGNAL PACKAGES PAGE */
 
 .signal-package-page {
   padding: 5rem;
@@ -680,7 +697,7 @@
   text-align: center;
   width: 2rem;
   height: 2rem;
-  color: #22c55e;
+  color: #d4d4d8;
 }
 
 .inludes {
@@ -715,15 +732,15 @@
 
 .pricing-plan--starter-1 {
   justify-self: end;
-  border: 2px solid #22c55e;
-  background-color: #f0fdf4;
+  border: 2px solid #020617;
+  background-color: #d4d4d8;
   padding: 4.6rem;
 
 }
 
 .pricing-plan--complete-2 {
-  background-color: #052e16;
-  border: 2px solid #22c55e;
+  background-color: #09090b;
+  border: 2px solid #d4d4d8;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -738,8 +755,8 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #FAFAFA;
-  background-color: #374151;
+  color: #09090b;
+  background-color: #d4d4d8;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -812,7 +829,7 @@
   margin-top: 4.8rem;
 }
 
-.plan-details-2 {
+.plan-details {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
@@ -834,6 +851,9 @@
 
 .list-item-1 {
   color: #f3f4f6;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  display: flex;
   align-items: center;
   gap: 1.6rem;
   line-height: 1.2;
@@ -1175,8 +1195,9 @@ textarea::placeholder {
 
 
 .contact-us-link {
-  color: #22c55e;
+  color: #a1a1aa;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .contact-us-link:hover,
@@ -1284,13 +1305,13 @@ textarea::placeholder {
 
 .gooltech {
   text-decoration: none;
-  color: #09090b;
+  color: #18181b;
   transition: all 0.3s;
 }
 
 .gooltech:hover,
 .gooltech:active {
-  color: #18181b;
+  color: #06b6d4;
 }
 
 .social-links {
@@ -1312,7 +1333,7 @@ textarea::placeholder {
 }
 
 .footer-heading {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 4rem;
   color: #09090B;
@@ -1320,7 +1341,7 @@ textarea::placeholder {
 
 .contacts {
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
 }
 
@@ -1339,12 +1360,12 @@ textarea::placeholder {
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #09090b;
   transition: all 0.3s;
 }
 
 .footer-link:hover,
 .footer-link:active {
-  color: #22c55e;
+  color: #a1a1aa;
 }
