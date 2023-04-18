@@ -602,8 +602,16 @@
 
 .banking-details {
   font-size: 1.8rem;
+
 }
 
+
+.ref {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
 
 /* PREFFERED BROKER */
 .preffered-broker {
@@ -642,13 +650,13 @@
 
 .r-arrow {
   font-size: 6rem;
-  color: black;
+  color: #d4d4d8
 }
 
 .broker-img {
   max-width: 10rem;
   cursor: pointer;
-  box-shadow: 0 0.2rem 0.5rem #09090b;
+  box-shadow: 0 0.2rem 0.5rem #d4d4d8;
 
 }
 
@@ -982,7 +990,7 @@
 .arrow {
   padding: 1.5rem;
   font-size: 3rem;
-  color: #22c55e;
+  color: #d4d4d8;
 }
 
 .sitemap-link:link,
@@ -1024,21 +1032,26 @@
 }
 
 .term-lists {
-  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+
   list-style: none;
+  text-align: center;
 }
 
 .term-list {
-  padding: 1rem 30rem;
+  padding: 0 30rem;
   font-weight: 500;
   line-height: 1.3;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .underline {
   text-decoration: underline;
-
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 .bold {
@@ -1089,7 +1102,7 @@
 .icon {
   width: 24px;
   height: 24px;
-  stroke: #22c55e;
+  stroke: #f3f4f6;
 
 }
 
@@ -1114,7 +1127,7 @@
 }
 
 .open {
-  border-top: 4px solid #22c55e;
+  border-top: 4px solid #f3f4f6;
 
 }
 
@@ -1124,7 +1137,7 @@
 
 .open .number,
 .open .text {
-  color: #22c55e;
+  color: #d4d4d8;
 }
 
 .faq-p {
@@ -1195,19 +1208,19 @@ textarea::placeholder {
 
 
 .contact-us-link {
-  color: #a1a1aa;
-  text-decoration: none;
+  color: #e5e5e5;
+  text-decoration: underline;
   font-weight: 600;
 }
 
 .contact-us-link:hover,
 .contact-us-link:active {
-  color: #09090B;
+  color: #fafafa;
 }
 
 .contact-us-link:link,
 .contact-us-link:active {
-  color: #09090B;
+  color: #fafafa;
 }
 
 .cta-form {
@@ -1318,6 +1331,7 @@ textarea::placeholder {
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  margin-left: 1.9rem;
 }
 
 .social-icon {
@@ -1329,7 +1343,7 @@ textarea::placeholder {
   font-size: 1.4rem;
   line-height: 1.6;
   color: #09090b;
-  margin-top: auto;
+  margin-top: 4rem;
 }
 
 .footer-heading {
