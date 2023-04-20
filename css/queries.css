@@ -109,11 +109,12 @@
   }
 
   .hero {
-    max-width: 50%;
+    max-width: 90%;
     grid-template-columns: 1fr;
     padding: 2rem 5rem;
     gap: 1rem;
   }
+
 
 
   .courses-2 {
@@ -128,8 +129,8 @@
   }
 
   .heading-primary {
-    padding: 2rem;
-    font-size: 3.8rem;
+    padding: 3rem;
+    font-size: 4rem;
   }
 
   .hero-text-box,
@@ -327,7 +328,7 @@
 @media (max-width: 34em) {
 
   .hero {
-    max-width: 60%;
+    max-width: 90%;
   }
 
   .virtual-course {
