@@ -302,8 +302,12 @@
   text-decoration: underline;
   text-align: center;
   text-transform: capitalize;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   padding: 1rem;
+}
+
+.whitespace {
+  white-space: nowrap;
 }
 
 .signal-p {
@@ -445,7 +449,7 @@
 .pricing-section-f2ff {
   height: 30rem;
   max-width: 31rem;
-  margin-top: 6.9rem;
+  margin-top: 11.9rem;
   padding: 4rem;
   border-radius: 15px;
   box-shadow: 0 0.5rem 1rem #09090b;
@@ -473,7 +477,7 @@
 .course-name {
   font-weight: 600;
   font-size: 2rem;
-  text-transform: uppercase;
+
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
@@ -481,7 +485,7 @@
 .course-name-f2f {
   font-weight: 600;
   font-size: 2rem;
-  text-transform: uppercase;
+
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 
@@ -491,7 +495,7 @@
 .course-name-cc {
   font-weight: 600;
   font-size: 2rem;
-  text-transform: uppercase;
+
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }

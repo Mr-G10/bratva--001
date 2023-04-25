@@ -1,5 +1,4 @@
 console.log("Hello world!");
-
 const myWeb = "This Website was designed and Programmed by Gooltech.io";
 const h1 = document.querySelector(".heading-primary");
 console.log(myWeb);
