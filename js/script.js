@@ -4,12 +4,6 @@ const h1 = document.querySelector(".heading-primary");
 console.log(myWeb);
 console.log(h1);
 
-// h1.addEventListener("click", function () {
-//   h1.textContent = myName;
-//   h1.style.backgroundColor = "red";
-//   h1.style.padding = "5rem";
-// });
-
 ///////////////////////////////////////////////////////////
 // Set current year
 const yearEl = document.querySelector(".year");
@@ -31,6 +25,32 @@ btnNavEl.addEventListener("click", function () {
 mainNavLinks.forEach(function (link) {
   link.addEventListener("click", function () {
     headerEl.classList.remove("nav-open");
+  });
+});
+
+// Yoco
+
+var yoco = new window.YocoSDK({
+  publicKey: "pk_live_4e978aedM43lqDB43d24",
+});
+var checkoutButton = document.querySelector(".checkout-button");
+checkoutButton.addEventListener("click", function () {
+  yoco.showPopup({
+    amountInCents: 149999,
+    currency: "ZAR",
+    name: "Your Store or Product",
+    description: "Awesome description",
+    callback: function (result) {
+      // This function returns a token that your server can use to capture a payment
+      if (result.error) {
+        const errorMessage = result.error.message;
+        alert("error occured: " + errorMessage);
+      } else {
+        alert("card successfully tokenised: " + result.id);
+      }
+      // In a real integration - you would now pass this chargeToken back to your
+      // server along with the order/basket that the customer has purchased.
+    },
   });
 });
 
