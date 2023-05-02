@@ -885,6 +885,8 @@
 
 
 /* TESTIMONIAL GALLERY */
+
+
 .section-gallery {
   width: 100%;
   min-height: 100vh;
@@ -922,10 +924,6 @@
 
 }
 
-.gallery img:hover {
-  transition: all 0.4s;
-  transform: scale(1.1);
-}
 
 
 
@@ -1146,6 +1144,35 @@
 
 .faq-p {
   font-size: 2rem;
+}
+
+
+/* WHATSAPP BUTTON */
+.whatsapp-btn-container {
+  position: fixed;
+  right: 3.6rem;
+  opacity: 0;
+  bottom: -10rem;
+  padding: 2.4rem;
+  animation: fade-up 2s forwards;
+}
+
+@keyframes fade-up {
+  100% {
+    bottom: 2.4rem;
+    opacity: 1;
+  }
+}
+
+.whatsapp-btn {
+  font-size: 5rem;
+  color: #22c55e;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover {
+  transform: scale(1.2);
 }
 
 /**************************/
