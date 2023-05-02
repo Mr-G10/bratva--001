@@ -1294,6 +1294,11 @@ textarea::placeholder {
   background-color: #d4d4d8;
 }
 
+.sign-up-p {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
 
 
 /**************************/
