@@ -1155,6 +1155,7 @@
   bottom: -10rem;
   padding: 2.4rem;
   animation: fade-up 2s forwards;
+  z-index: 999;
 }
 
 @keyframes fade-up {
@@ -1166,7 +1167,7 @@
 
 .whatsapp-btn {
   font-size: 5rem;
-  color: #22c55e;
+  color: #a1a1aa;
   display: inline-block;
   transition: all 0.4s;
 }
