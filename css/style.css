@@ -1329,6 +1329,43 @@ textarea::placeholder {
 
 
 
+/* REDIRECT PAGE */
+
+.redirect-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.page-404 {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 10rem;
+}
+
+.p-404 {
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.redirect {
+  color: #f3f4f6;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-bottom: 10rem;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.redirect:hover {
+  color: #22c55e;
+}
+
+
+
 /**************************/
 /* FOOTER */
 /**************************/
