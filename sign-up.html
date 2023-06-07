@@ -26,13 +26,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
-    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-    <script defer src="js/script.js"></script>
 
-    <title>Bratva &mdash; Forex Trading Institue</title>
+    <title>Bratva &mdash; Sign Up</title>
 </head>
 
 
@@ -92,15 +88,17 @@
                                 <label for="select-where">choose your required service</label>
                                 <select id="select-where" name="select-where" required>
                                     <option value="">Please choose one option:</option>
-                                    <option value="virtual course">virtual course</option>
-                                    <option value="one on one virtual course">one on one virtual course</option>
-                                    <option value="consult">consultation</option>
+                                    <option id="virtual-course" value="virtual course">virtual course</option>
+                                    <option id="one-on-one-virtual-course" value="one on one virtual course">one on one
+                                        virtual course</option>
+                                    <option id="consult" value="consult">consultation</option>
 
                                 </select>
                             </div>
                             <div>
-                                <label for="select-where">choose a date</label>
+                                <label for="Test_DatetimeLocal">Choose a date:</label>
                                 <input type="datetime-local" id="Test_DatetimeLocal" name="datetime-local" required>
+
                             </div>
                             <div><label for="appt">Select a time:</label>
                                 <input type="time" id="appt" name="appt" required>
@@ -119,7 +117,7 @@
                 </div>
 
                 <div class="banking-details-section">
-                    <p class="sign-up-p">Once The Form Is Completed, You Will Be Contatcted For Payment Arrangements</p>
+                    <p class="sign-up-p">Once The Form Is Completed, You Will Be Contacted For Payment Arrangements</p>
                     <h2 class="bank-acc">Bratva Investments (Pty) Ltd</h2>
                     <p class="banking-details">Bank: First National Bank</p>
                     <p class="banking-details">Account number: 62795454950 </p>
@@ -208,6 +206,12 @@
             </nav>
         </div>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
 
 </body>
 

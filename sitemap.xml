@@ -4,59 +4,30 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://bratva.co.za/</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/index.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/signal-packages.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/testimonials.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/about-us.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/sign-up.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/faq.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/sitemap.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/terms&amp;conditions.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bratva.co.za/contact-us.html</loc>
-  <lastmod>2023-05-02T11:51:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+	<url>
+		<loc>https://bratva.co.za/</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/about-us</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/sign-up</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/faq</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/terms&amp;conditions</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/signal-packages</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/testimonials</loc>
+	</url>
+	<url>
+		<loc>https://bratva.co.za/contact-us</loc>
+	</url>
 
 
 </urlset>
